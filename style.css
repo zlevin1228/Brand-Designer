@@ -1,0 +1,569 @@
+/* comment your css too */
+body {
+  font-family: 'Rajdhani', sans-serif;
+  max-width: 100%;
+}
+
+img.top {
+  height: 125px;
+  width:auto;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -7.5px;
+}
+
+.container {
+  width: 1903px;
+}
+.art {
+  width: 150vw;
+  height: 25vw;
+}
+div#satoshi {
+ background-color: black;
+ width: 100%;
+ height: 650px;
+}
+
+#parallax {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+div#next {
+  height: ;
+  width: 100%;
+  background-color: black;
+}
+
+img#next {
+  width: 100%;
+  height: auto;
+  z-index: 1
+  
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: auto;
+}
+
+#parallax2 {
+  /* The image used */
+  background-image: url("company.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+div.ourcompany {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  padding-right:20px;
+  padding-left:20px;
+}
+
+img#satoshitajiri {
+  border: 4px solid black;
+  border-color: white;
+  border-radius: 4px;
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-right: 0px;
+}
+
+.companytext {
+  color: white;
+}
+
+p.paragraph {
+  margin-top: 20px;
+  color: white;
+  font-size: 1.5vw;
+}
+
+.games {
+  height: 50%;
+  width: 50%;
+  border-color: white;
+  margin-top: -40px;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+#parallax3 {
+  /* The image used */
+  background-image: url("game-freak-offices-tokyo-9-1200x800.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax4 {
+  /* The image used */
+  background-image: url("gen1starters1920x1200.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+div.games {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.style {
+  background-color: white;
+  color: black;
+  border: 10px solid white;
+  border-radius: 4px;
+}
+
+#style {
+  background-color: white;
+  color: black;
+  border: 10px solid white;
+  border-radius: 4px;
+}
+
+carousel {
+  width: 200vw;
+  height: 200vw;
+}
+
+br.break {
+  display: block;
+  margin-top: 10px 0;
+  line-height:22px
+  content: "";
+}
+
+#parallax5 {
+  /* The image used */
+  background-image: url("lugia_vs___ho_oh_by_thundaflare_d6bhf6h-fullview.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax6 {
+  /* The image used */
+  background-image: url("sonia-heredia-polo-2.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.header {
+  height: 30vw;
+  background-color: white;
+  color: black;
+  font-size: 10vw;
+}
+
+#parallax7 {
+  /* The image used */
+  background-image: url("ddst5qc-7e2f6dcd-f5dd-4e81-aa79-a85f9db6362f.png");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax8 {
+  /* The image used */
+  background-image: url("wp2703725.png");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+img#ds {
+  border: 1px solid black;
+}
+
+#parallax9 {
+  /* The image used */
+  background-image: url("gen2starters1920x1200.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+
+#parallax10 {
+  /* The image used */
+  background-image: url("wp1846242.png");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax11 {
+  /* The image used */
+  background-image: url("wp1881077.webp");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax12 {
+  /* The image used */
+  background-image: url("thumb-1920-661582.png");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax13 {
+  /* The image used */
+  background-image: url("oras1920x1200.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax14 {
+  /* The image used */
+  background-image: url("Solgaleo-and-Lunala-pokemon-39753143-1920-1080.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax15 {
+  /* The image used */
+  background-image: url("wp3826369.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax16 {
+  /* The image used */
+  background-image: url("cute-pikachu-and-eevee-jh33ode2cla509c5.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax17 {
+  /* The image used */
+  background-image: url("zacian-zamazenta-pokemon-sword-and-shield-88gil7a66icd6gfa.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax18 {
+  /* The image used */
+  background-image: url("wp2262445.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax19 {
+  /* The image used */
+  background-image: url("HD-wallpaper-pokemon-pokemon-legends-arceus-akari-pokemon-braviary-pokemon.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#parallax20 {
+  /* The image used */
+  background-image: url("HD-wallpaper-koraidon-and-miraidon-pokemon-drawn-by-kemonomichi-blue-black.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
